@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    min-height: 70vh;
+    width: 60%;
+    background:  linear-gradient( 
+        to right top, 
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.3),
+    );
+    border-radius: 20px;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+}
+
+.circle1, .circle2{
+    background: rgba(255, 255, 255, 0.377);
+    background:  linear-gradient( 
+        to right bottom, 
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.3),
+    );
+
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 70%;
+}
+
+.circle1{
+    top: 3%;
+    right: 10%;
+
+}
+
+.circle2{
+    bottom: 1%;
+    left: 9%;
+}
+
+.dashboard {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.dashboard img {
+  padding-left: 30px;
+  margin-top: 15px;
+  height: 43px;
+  width: 120px;
+}
+
+.dashboard h1 {
+    color: black;
+    font-size: 55px; 
+    margin-left: 27%;
+    margin-right: 31%;
+    font-style: italic;
+}
+
+.burger img {
+    height: 30px;
+    width: 60px;
+    padding-top: 5px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yeezy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yeezy img{
+    margin-top: 5%;
+    height: 270px;
+    width: 490px;
+    /* padding-top: 30px; */
+    z-index: 3;
+}
+
+.big {
+    display: flex;
+    transform: translateY(-9%);
+    align-items: center;
+    justify-content: center;
+}
+
+.big h1 {
+    color: #65dfc9 ;
+    font-size: 95px;
+    /* opacity: 40%; */
+}
+
+.buy-now{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    transform: translateY(-20px);
+   
+}
+
+
+
+.buy-now a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color:  #000000;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-radius: 0px;
+}
+
+.buy-now a:hover{
+    background-color:  #65dfc9;
+}
